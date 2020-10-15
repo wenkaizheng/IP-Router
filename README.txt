@@ -209,5 +209,4 @@ wget http://ServerIP:16280 (this retrieves the web front page from the server.)
 wget http://ServerIP:16280/64MB.bin (this retrieves a 64MB file.) 
 
 Download speed is not required. But if it is too slow, usually it means something is wrong with the code. 
-
 Log and examine the traffic. In particular, we will check that ARP behavior is correct, e.g., ARP request/reply are sent/received correctly, ARP is not sent for every packet because the previous results are saved in the ARP table. 
